@@ -1,0 +1,121 @@
+@font-face{
+    font-family: "PlayfairDisplay";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Roboto_SemiCondensed-Regular.ttf);
+}
+@font-face{
+    font-family: "PT-Serif";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/PTSerif-Regular.ttf);
+}
+@font-face{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/Roboto_Condensed-Light.ttf);
+}
+
+
+
+.container{
+    width: 1110px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #012D63;
+}
+footer{
+    background-color: #021635;
+}
+.colorawe{
+    font-family:"PlayfairDisplay";
+    font-size: 144px;
+    font-weight: 400;
+    
+}
+.navigation{
+    font-family:"Roboto" ;
+    text-decoration: none;
+    color: #FFFF;
+    font-weight: 300;
+    
+}
+
+.first-title{
+    font-family: "PlayfairDisplay";
+    font-size: 72px;
+    font-weight: 400;
+}
+.first-logo{
+   
+    font-size: 48px;
+    font-weight: 400;
+    
+}
+.first-paragraph{
+    font-family: "Roboto";
+    font-size: 18px;
+}
+.first-button{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+}
+.second-title{
+    font-family: "PlayfairDisplay";
+    font-size: 36px;
+    font-weight: 400;
+}
+.third-title{
+    font-family: "PlayfairDisplay";
+    font-weight: 400;
+    font-size: 48px;
+}
+.third-paragraph{
+    font-family: "Roboto";
+    font-size: 24px;
+}
+.third-date{
+    font-size: 14px;
+    font-family: "Roboto";
+}
+.third-name {
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.third-text {
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.footer{
+    color: #FFFF;
+}
+.footer-link{
+   font-size: 24px;
+    color: #FFFF;
+}
+.footer-paragraph{
+    font-size: 24px;
+}
+.first-section{
+    background-image: url(../images/Image.png);
+    color: #FFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
