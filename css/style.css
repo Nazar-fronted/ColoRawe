@@ -74,7 +74,7 @@ footer{
 .second-title{
     font-family: "PlayfairDisplay";
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .third-title{
     font-family: "PlayfairDisplay";
@@ -114,8 +114,48 @@ footer{
     background-position: center;
     background-size: cover;
 }
+
+.language{
+    font-family: "Roboto";
+    text-decoration: none;
+    color: #ffff;
+}
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+.second-section{
+    background-image: url(../images/group3.png);
+    color: #FFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.third-section{
+    background-image: url(../images/group4.png);
+    color: #FFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.four-section{
+    background-image:url(../images/group6.png);
+    color: #FFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 509px;
+}
+.header-flex{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.second-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
 }
