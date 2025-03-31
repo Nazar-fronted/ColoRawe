@@ -27,12 +27,15 @@
 
 .container{
     width: 1110px;
-    padding: 0 15px;
+    padding: 0 ;
     margin: 0 auto;
 }
 
 header{
     background-color: #012D63;
+    padding-top: 16px;
+    padding-bottom: 14px;
+
 }
 footer{
     background-color: #021635;
@@ -48,16 +51,103 @@ footer{
     text-decoration: none;
     color: #FFFF;
     font-weight: 300;
+    padding-right:29px ;
     
+}
+.first-section{
+    background-image: url(../images/Image.png);
+    color: #FFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 94px;
+    padding-bottom: 183px;
+    
+}
+.second-section{
+    background-image: url(../images/group3.png);
+    color: #FFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 105px;
+    padding-bottom: 106px;
+     
+
+}
+.third-section{
+    background-image: url(../images/flowers1.png),url(../images/group4.png);
+    color: #FFFF;
+    
+    background-repeat: no-repeat;
+    background-position:left bottom, center;
+    background-size:auto, cover;
+    padding-top: 24px;
+    padding-bottom: 115px;
+}
+
+
+.four-section{
+    background-image:url(../images/group6.png);
+    color: #FFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 509px;
+    padding-top: 20px;
+    padding-bottom: 37px;
+    
+}
+.third-div{
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #333; 
+    border-radius: 10px;
+   
+    flex: 1;
+    min-width: 200px; 
+    max-width: 300px; 
+
+    
+    
+    
+}
+.third-div:last-child{
+    width: 255px;
+    height: 292px;
+    box-shadow:  0 14px 0 -5px #b95a4c,0 30px 0 -13px #732f26;
+    background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
+}
+.third-div:first-child{
+    width: 255px;
+    height: 292px;
+    box-shadow:  0 14px 0 -5px #7b54b2,0 30px 0 -13px #533978;
+    background: linear-gradient(135deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
+}
+.third-div:nth-child(2){
+    width: 255px;
+    height: 292px;
+    box-shadow:  0 14px 0 -5px #9159b1,0 30px 0 -13px #61337c;
+    background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
+}
+.footer{
+    color: #FFFF;
+    padding-top: 45px;
+    padding-bottom: 24px;
 }
 
 .first-title{
     font-family: "PlayfairDisplay";
     font-size: 72px;
     font-weight: 400;
+    margin-bottom: 12px;
 }
-.first-logo{
-   
+.first-logo-cr{
+    font-family: "PT-Serif";
+    font-size: 48px;
+   margin-left: 25px;
+   margin-top:-30px ;
     font-size: 48px;
     font-weight: 400;
     
@@ -65,11 +155,23 @@ footer{
 .first-paragraph{
     font-family: "Roboto";
     font-size: 18px;
+    max-width: 508px;
+    margin-bottom: 41px;
 }
 .first-button{
     font-family: "Roboto";
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: rgba(142, 50, 198, 1);
+    border: none;
+    border-radius: 10px;
+   
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding:  20px 61px 20px 61px;
 }
 .second-title{
     font-family: "PlayfairDisplay";
@@ -80,6 +182,9 @@ footer{
     font-family: "PlayfairDisplay";
     font-weight: 400;
     font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .third-paragraph{
     font-family: "Roboto";
@@ -88,6 +193,7 @@ footer{
 .third-date{
     font-size: 14px;
     font-family: "Roboto";
+    padding-bottom: 47px;
 }
 .third-name {
     font-family: "Roboto";
@@ -97,23 +203,16 @@ footer{
     font-family: "Roboto";
     font-size: 14px;
 }
-.footer{
-    color: #FFFF;
-}
+
 .footer-link{
    font-size: 24px;
     color: #FFFF;
 }
 .footer-paragraph{
     font-size: 24px;
+    margin-top: 49px;
 }
-.first-section{
-    background-image: url(../images/Image.png);
-    color: #FFFF;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+
 
 .language{
     font-family: "Roboto";
@@ -125,29 +224,25 @@ ul{
     margin: 0;
     padding: 0;
 }
-.second-section{
-    background-image: url(../images/group3.png);
-    color: #FFFF;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.order-btn{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: rgba(142, 50, 198, 1);
+    border: none;
+    border-radius: 16px;
+   
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding:  20px 49px 20px 49px;
 }
-.third-section{
-    background-image: url(../images/group4.png);
-    color: #FFFF;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.four-section{
-    background-image:url(../images/group6.png);
-    color: #FFFF;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 509px;
-}
+
+
+
+
 .header-flex{
     display: flex;
     justify-content:space-between ;
@@ -157,5 +252,79 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border: 5px solid rgba(142, 50, 198, 1);
+    width: 1110px;
+    height: 396px;
     
+    
+}
+.second-div{
+    border-left: 2px solid #fff;
+    flex: 1;
+    text-align: center;
+    margin: 25px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+.second-div:first-child{
+    border-left: none;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.second-div:last-child{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+}
+.second-title{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.four-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.four-title{
+    font-family: "PlayfairDisplay";
+    font-size: 48px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-list{
+    display: flex;
+    gap: 93px;
+}
+.input-form:first-child{
+    border-radius: 50px;
+    width: 690px;
+    height: 60px;
+}
+.input-form{
+    border-radius: 50px;
+    width: 580px;
+    height: 50px;
+    margin-bottom: 19px;
+}
+.footer-paragraph{
+    display: flex;
+    justify-content: start;
+}
+.footer-link{
+    display: flex;
+    justify-content: end;
+}
+.sport{
+    display: flex;
+    justify-content: end;
+    flex-direction: ;
 }
