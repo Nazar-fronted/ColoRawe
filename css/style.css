@@ -104,8 +104,8 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 509px;
+    
+    
     padding-top: 20px;
     padding-bottom: 37px;
     
@@ -152,7 +152,7 @@ footer{
 .footer{
     color: #FFFF;
     padding-top: 45px;
-    padding-bottom: 24px;
+    padding-bottom: 20px;
 }
 
 .first-title{
@@ -222,11 +222,6 @@ footer{
 .third-text {
     font-family: "Roboto";
     font-size: 14px;
-}
-        
-.footer-link{
-   font-size: 24px;
-    color: #FFFF;
 }
 
 
@@ -315,6 +310,7 @@ ul{
 .four-title{
     font-family: "PlayfairDisplay";
     font-size: 48px;
+    padding-bottom: 33px;
     
     display: flex;
     justify-content: center;
@@ -359,13 +355,64 @@ input{
     justify-content: space-between;
     background: #ffff;
     border-radius: 50px;
-    padding: 12px 25px;
+    padding: 12px ;
     align-self: stretch;
     margin-bottom: 20px;
-   
-   
-    
+     
 }
+
+    
 .email-btn{
     border: 0;
+    padding-right: 78px;
+    font-size: 28px;
+    font-family: "Roboto";
+    color: #8D8D8D;
+}
+.contact-container {
+    display: flex; 
+    justify-content: space-between; 
+    border-bottom: 2px solid #fff;
+    padding-bottom: 20px;
+}
+.contact-left,
+.contact-right {
+    display: flex;
+    flex-direction: column;
+}
+.contact-text{
+    padding-bottom: 10px;
+}
+.contact-left {
+    flex-grow: 1; 
+}
+.contact-right {
+    text-align: right; 
+    margin: 0; 
+    padding: 0;
+}
+
+a{
+    color: #ffff;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+     
+}
+.footer-left{
+    font-size: 18px;
+    font-family: "Roboto";
+}
+.footer-logo{
+    height: 81px;
+    width: 108px;
+}
+.brand{
+    padding-left: 24px;
+    font-family: "PT-Serif";
+    font-size: 24px;
 }
