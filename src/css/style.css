@@ -207,6 +207,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding-bottom: 24px;
+  line-height: 1.33;
 }
 .third-paragraph {
   font-family: "Roboto";
@@ -309,6 +310,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: 1.33;
 }
 .reviews-list {
   display: flex;
