@@ -359,6 +359,7 @@ input {
   font-size: 28px;
   font-family: "Roboto";
   color: #8d8d8d;
+  background-color: #ffff;
 }
 .contact-container {
   display: flex;
