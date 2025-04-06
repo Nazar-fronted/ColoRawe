@@ -98,19 +98,24 @@ footer {
 }
 .third-div {
   flex: 1;
-  padding: 59px 24px 0px 24px;
+  padding: 50px 16px 0px ;
   border: 2px solid #333;
   border-radius: 15px;
 
   flex: 1;
   min-width: 200px;
   max-width: 300px;
+  display: grid;
+  grid-template-rows: auto auto;
 }
 
 .card {
   display: flex;
   align-items: center;
-  padding: 2px;
+  
+}
+.second-title:nth-child(2) {
+  margin-left: 35px;
 }
 .third-div:last-child {
   width: 255px;
@@ -397,4 +402,10 @@ a {
   padding-left: 24px;
   font-family: "PT-Serif";
   font-size: 24px;
+}
+.card{
+  padding-bottom: 39px;
+}
+.third-img{
+  margin-right: 5px;
 }
