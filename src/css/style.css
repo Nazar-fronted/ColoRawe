@@ -4,18 +4,21 @@
   font-weight: 400;
   src: url(../fonts/PlayfairDisplay-Regular.ttf);
 }
+
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   src: url(../fonts/Roboto_SemiCondensed-Regular.ttf);
 }
+
 @font-face {
   font-family: "PT-Serif";
   font-style: normal;
   font-weight: 400;
   src: url(../fonts/PTSerif-Regular.ttf);
 }
+
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -34,16 +37,19 @@ header {
   padding-top: 16px;
   padding-bottom: 14px;
 }
+
 footer {
   background-color: #021635;
   font-family: "Roboto";
   font-size: 24px;
 }
+
 .colorawe {
   font-family: "PlayfairDisplay";
   font-size: 144px;
   font-weight: 400;
 }
+
 .navigation {
   font-family: "Roboto";
   text-decoration: none;
@@ -52,9 +58,11 @@ footer {
   font-size: 24px;
   padding-right: 29px;
 }
+
 .navigation:first-child {
   color: #ffff;
 }
+
 .first-section {
   background-image: url(../images/nike.png);
   color: #ffff;
@@ -64,6 +72,7 @@ footer {
   padding-top: 94px;
   padding-bottom: 183px;
 }
+
 .second-section {
   background-image: url(../images/group3.png);
   color: #ffff;
@@ -73,6 +82,7 @@ footer {
   padding-top: 105px;
   padding-bottom: 106px;
 }
+
 .third-section {
   background-image: url(../images/flowers1.png),
     radial-gradient(circle at right 120%, #01b1cd 5%, rgb(2, 22, 53) 28%);
@@ -96,15 +106,12 @@ footer {
   padding-top: 20px;
   padding-bottom: 37px;
 }
+
 .third-div {
   flex: 1;
-  padding: 50px 16px 0px ;
-  border: 2px solid #333;
+  padding: 50px 16px 0px;
   border-radius: 15px;
-
   flex: 1;
-  min-width: 200px;
-  max-width: 300px;
   display: grid;
   grid-template-rows: auto auto;
 }
@@ -112,47 +119,46 @@ footer {
 .card {
   display: flex;
   align-items: center;
-  
+
 }
+
 .second-title:nth-child(2) {
   margin-left: 35px;
 }
+
 .third-div:last-child {
   width: 255px;
   height: 292px;
   box-shadow: 0 14px 0 -5px #b95a4c, 0 30px 0 -13px #732f26;
-  background: linear-gradient(
-    135deg,
-    #ffe128 0%,
-    #ff9b5c 30.21%,
-    #ff8381 63.29%,
-    #ff5489 100%
-  );
+  background: linear-gradient(135deg,
+      #ffe128 0%,
+      #ff9b5c 30.21%,
+      #ff8381 63.29%,
+      #ff5489 100%);
 }
+
 .third-div:first-child {
   width: 255px;
   height: 292px;
   box-shadow: 0 14px 0 -5px #7b54b2, 0 30px 0 -13px #533978;
-  background: linear-gradient(
-    135deg,
-    #00e5e6 7.29%,
-    #00a8f7 26.04%,
-    #9a76f9 62.5%,
-    #cc5ec2 100%
-  );
+  background: linear-gradient(135deg,
+      #00e5e6 7.29%,
+      #00a8f7 26.04%,
+      #9a76f9 62.5%,
+      #cc5ec2 100%);
 }
+
 .third-div:nth-child(2) {
   width: 255px;
   height: 292px;
   box-shadow: 0 14px 0 -5px #9159b1, 0 30px 0 -13px #61337c;
-  background: linear-gradient(
-    135deg,
-    #ff68b4 0%,
-    #ff45e1 26.04%,
-    #ce3aff 62.84%,
-    #8961ff 100%
-  );
+  background: linear-gradient(135deg,
+      #ff68b4 0%,
+      #ff45e1 26.04%,
+      #ce3aff 62.84%,
+      #8961ff 100%);
 }
+
 .footer {
   color: #ffff;
   padding-top: 45px;
@@ -165,6 +171,7 @@ footer {
   font-weight: 400;
   margin-bottom: 12px;
 }
+
 .first-logo-cr {
   font-family: "PT-Serif";
   font-size: 48px;
@@ -173,12 +180,14 @@ footer {
   font-size: 48px;
   font-weight: 400;
 }
+
 .first-paragraph {
   font-family: "Roboto";
   font-size: 18px;
   max-width: 508px;
   margin-bottom: 41px;
 }
+
 .first-button {
   font-family: "Roboto";
   font-size: 24px;
@@ -194,11 +203,13 @@ footer {
   display: inline-block;
   padding: 20px 61px 20px 61px;
 }
+
 .second-title {
   font-family: "PlayfairDisplay";
   font-size: 36px;
   font-weight: 300;
 }
+
 .third-title {
   font-family: "PlayfairDisplay";
   font-weight: 400;
@@ -209,19 +220,23 @@ footer {
   padding-bottom: 24px;
   line-height: 1.33;
 }
+
 .third-paragraph {
   font-family: "Roboto";
   font-size: 24px;
 }
+
 .third-date {
   font-size: 14px;
   font-family: "Roboto";
   padding-bottom: 47px;
 }
+
 .third-name {
   font-family: "Roboto";
   font-size: 14px;
 }
+
 .third-text {
   font-family: "Roboto";
   font-size: 14px;
@@ -233,11 +248,13 @@ footer {
   color: #ffff;
   font-size: 24px;
 }
+
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 .order-btn {
   font-family: "Roboto";
   font-size: 24px;
@@ -259,6 +276,7 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
+
 .second-ul {
   display: flex;
   flex-direction: row;
@@ -267,6 +285,7 @@ ul {
   width: 1110px;
   height: 396px;
 }
+
 .second-div {
   border-left: 2px solid #fff;
   flex: 1;
@@ -276,6 +295,7 @@ ul {
   flex-direction: column;
   align-items: center;
 }
+
 .second-div:first-child {
   border-left: none;
   display: flex;
@@ -288,11 +308,13 @@ ul {
   flex-direction: column-reverse;
   align-items: center;
 }
+
 .second-title {
   width: 100px;
   display: flex;
   justify-content: center;
 }
+
 .four-form {
   display: flex;
   justify-content: center;
@@ -302,6 +324,7 @@ ul {
   max-width: 690px;
   margin: 0 auto;
 }
+
 .four-title {
   font-family: "PlayfairDisplay";
   font-size: 48px;
@@ -312,21 +335,25 @@ ul {
   align-items: center;
   line-height: 1.33;
 }
+
 .reviews-list {
   display: flex;
   gap: 93px;
 }
+
 .input-form:first-child {
   border-radius: 50px;
   width: 690px;
   height: 60px;
 }
+
 .input-form {
   border-radius: 50px;
   width: 580px;
   height: 50px;
   margin-bottom: 19px;
 }
+
 input {
   padding-left: 25px;
   font-family: "Roboto";
@@ -334,6 +361,7 @@ input {
   color: rgba(149, 149, 149, 1);
   border: 0;
 }
+
 .input:first-child {
   font-size: 28px;
 }
@@ -361,23 +389,28 @@ input {
   color: #8d8d8d;
   background-color: #ffff;
 }
+
 .contact-container {
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid #fff;
   padding-bottom: 20px;
 }
+
 .contact-left,
 .contact-right {
   display: flex;
   flex-direction: column;
 }
+
 .contact-text {
   padding-bottom: 10px;
 }
+
 .contact-left {
   flex-grow: 1;
 }
+
 .contact-right {
   text-align: right;
   margin: 0;
@@ -387,28 +420,34 @@ input {
 a {
   color: #ffff;
 }
+
 .footer-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
 }
+
 .footer-left {
   font-size: 18px;
   font-family: "Roboto";
 }
+
 .footer-logo {
   height: 81px;
   width: 108px;
 }
+
 .brand {
   padding-left: 24px;
   font-family: "PT-Serif";
   font-size: 24px;
 }
-.card{
+
+.card {
   padding-bottom: 39px;
 }
-.third-img{
+
+.third-img {
   margin-right: 5px;
 }
