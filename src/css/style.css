@@ -451,3 +451,31 @@ a {
 .third-img {
   margin-right: 5px;
 }
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 400px;
+  padding: 20px;
+  background-image: url(../images/backround.png);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 5px #ffffff;
+}
+.close-button{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius:5px ;
+ 
+}
+.backdrop.is-hidden{
+  opacity: 0;
+  pointer-events: none;
+}
+.javascript-form{
+  padding-top: 20px;
+}

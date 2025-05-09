@@ -37,8 +37,28 @@
                     original company can't create such beautiful sneakers as we do. Good
                     luck finding your way in the world of custom sneakers!
                 </p>
-                <button class="first-button">Buy my Nike</button>
+                <button class="first-button open-button" data-open_modal>Buy my Nike</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <button class="close-button" data-close_modal>×</button>
+                        <form class="four-form javascript-form">
+                            <div class="form-group">
+                                <input class="input-email" type="email" id="email" name="email"
+                                    placeholder="Write your email" />
+                                <button class="email-btn" type="button">Confirm</button>
+                            </div>
+    
+                            <input class="input-form" type="text" id="country" name="country" placeholder=" Your country" />
+    
+                            <input class="input-form" type="text" id="city" name="city" placeholder=" Your city" />
+    
+                            <input class="input-form" type="text" id="address" name="address" placeholder=" Your address" />
+    
+                            <button type="button" class="order-btn">Buy my Nike</button>
+                        </form>
+                        
             </div>
+        <script src="./src/js/index.js"></script>
         </section>
         <section class="second-section">
             <div class="container">
